@@ -1,0 +1,1954 @@
+﻿[{
+    "id": 2349,
+    "date": "2018-07-26T13:30:19",
+    "slug": "neander",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/neander\/",
+    "title": {
+        "rendered": "Anderson, Nadine"
+    },
+    "author": 3,
+    "netid": "neander",
+    "email": "neander@iastate.edu",
+    "firstname": "Nadine",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Anderson",
+    "user_image": {
+        "ID": "2421",
+        "post_author": "0",
+        "post_date": "2018-08-08 14:18:37",
+        "post_date_gmt": "2018-08-08 19:18:37",
+        "post_content": "",
+        "post_title": "Anderson_Nadine1",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "anderson_nadine1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-08-08 14:18:37",
+        "post_modified_gmt": "2018-08-08 19:18:37",
+        "post_content_filtered": "",
+        "post_parent": "2349",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/Anderson_Nadine1.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2421"
+    },
+    "phone_number": "515-294-8403",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Secretary III [E CPE]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2349"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2349"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2349"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2349"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2349"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2349"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 446,
+    "date": "2016-01-12T16:14:40",
+    "slug": "jaboyd",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/jaboyd\/",
+    "title": {
+        "rendered": "Boyd, Jason"
+    },
+    "author": 3,
+    "netid": "jaboyd",
+    "email": "jaboyd@iastate.edu",
+    "firstname": "Jason",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Boyd",
+    "user_image": {
+        "ID": "950",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:52:00",
+        "post_date_gmt": "2016-01-15 04:52:00",
+        "post_content": "",
+        "post_title": "BoydJason",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "boydjason",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:52:00",
+        "post_modified_gmt": "2016-01-15 04:52:00",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/BoydJason.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "950"
+    },
+    "phone_number": "515-294-3031",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Systems Analyst II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/446"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=446"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=446"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=446"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=446"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=446"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2350,
+    "date": "2018-07-26T13:32:00",
+    "slug": "kclague",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/kclague\/",
+    "title": {
+        "rendered": "Clague, Kristin"
+    },
+    "author": 3,
+    "netid": "kclague",
+    "email": "kclague@iastate.edu",
+    "firstname": "Kristin",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Clague",
+    "user_image": {
+        "ID": "3318",
+        "post_author": "3",
+        "post_date": "2018-08-10 14:54:32",
+        "post_date_gmt": "2018-08-10 19:54:32",
+        "post_content": "",
+        "post_title": "Kristin Clague",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "kristin-clague",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-08-30 14:15:25",
+        "post_modified_gmt": "2018-08-30 19:15:25",
+        "post_content_filtered": "",
+        "post_parent": "2350",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/Kristin-Clague.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "3318"
+    },
+    "phone_number": "515-294-2663",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering\r\nMaterials Science and Engineering\r\nEngineering College Relations",
+    "isu_title": "Communications Specialist III [ECR]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "4200 Marston $ 533 Morrill Rd. # Ames, IA 500112103",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "<h4 id=\"education-header\" class=\"dir-header\">Education<\/h4>\r\n<div>\r\n<ul>\r\n \t<li>Bachelor of Arts in English and Writing - Central College, 2008\r\n<ul>\r\n \t<li>Semester Abroad in London, England - Central College, 2006<\/li>\r\n \t<li>Summer Sessions in Spanish - University of California at Santa Barbara, 2007<\/li>\r\n<\/ul>\r\n<\/li>\r\n \t<li>Master of Arts in Teaching: Secondary Education, Reading, Journalism - Drake University, 2010<\/li>\r\n<\/ul>\r\n<\/div>",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2350"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2350"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2350"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2350"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2350"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2350"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2352,
+    "date": "2018-07-26T13:36:54",
+    "slug": "lkeilers",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/lkeilers\/",
+    "title": {
+        "rendered": "Eilers, Leah"
+    },
+    "author": 3,
+    "netid": "lkeilers",
+    "email": "lkeilers@iastate.edu",
+    "firstname": "Leah",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Eilers",
+    "user_image": {
+        "ID": "2436",
+        "post_author": "0",
+        "post_date": "2018-08-08 14:19:04",
+        "post_date_gmt": "2018-08-08 19:19:04",
+        "post_content": "",
+        "post_title": "Eilers_Leah",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "eilers_leah",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-08-08 14:19:04",
+        "post_modified_gmt": "2018-08-08 19:19:04",
+        "post_content_filtered": "",
+        "post_parent": "2352",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/Eilers_Leah.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2436"
+    },
+    "phone_number": "515-294-0825",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Academic Adviser II [E CPE]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2352"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2352"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2352"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2352"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2352"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2352"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2353,
+    "date": "2018-07-26T13:38:17",
+    "slug": "jasonpe",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/jasonpe\/",
+    "title": {
+        "rendered": "Eischeid, Jason"
+    },
+    "author": 3,
+    "netid": "jasonpe",
+    "email": "jasonpe@iastate.edu",
+    "firstname": "Jason",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Eischeid",
+    "user_image": {
+        "ID": "2484",
+        "post_author": "0",
+        "post_date": "2018-08-08 14:19:45",
+        "post_date_gmt": "2018-08-08 19:19:45",
+        "post_content": "",
+        "post_title": "Jason Eischeid006",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "jason-eischeid006",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-08-08 14:19:46",
+        "post_modified_gmt": "2018-08-08 19:19:46",
+        "post_content_filtered": "",
+        "post_parent": "2353",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/Jason-Eischeid006.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2484"
+    },
+    "phone_number": "515-294-5159",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Systems Support Specialist IV [E CPE]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2353"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2353"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2353"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2353"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2353"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2353"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2344,
+    "date": "2018-07-26T13:22:07",
+    "slug": "gelli",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/gelli\/",
+    "title": {
+        "rendered": "Gelli, Ravikumar"
+    },
+    "author": 3,
+    "netid": "gelli",
+    "email": "gelli@iastate.edu",
+    "firstname": "Ravikumar",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Gelli",
+    "user_image": {
+        "ID": "2495",
+        "post_author": "2",
+        "post_date": "2018-08-08 14:58:26",
+        "post_date_gmt": "2018-08-08 19:58:26",
+        "post_content": "",
+        "post_title": "no-photo",
+        "post_excerpt": "Default Photo",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "no-photo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2019-08-21 10:28:20",
+        "post_modified_gmt": "2019-08-21 15:28:20",
+        "post_content_filtered": "",
+        "post_parent": "2338",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/no-photo.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2495"
+    },
+    "phone_number": "515-294-2664",
+    "fax": "",
+    "user_title": "Postdoc Research Associate",
+    "isu_title": "Postdoc Research Associate [E CPE]",
+    "hide_isu_title": "1",
+    "office": "",
+    "isu_office": "2215 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2344"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2344"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2344"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2344"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2344"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2344"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2355,
+    "date": "2018-07-26T13:40:57",
+    "slug": "jkgrund",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/jkgrund\/",
+    "title": {
+        "rendered": "Grundmeier, Jacob"
+    },
+    "author": 3,
+    "netid": "jkgrund",
+    "email": "jkgrund@iastate.edu",
+    "firstname": "Jacob",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Grundmeier",
+    "user_image": {
+        "ID": "2435",
+        "post_author": "0",
+        "post_date": "2018-08-08 14:19:04",
+        "post_date_gmt": "2018-08-08 19:19:04",
+        "post_content": "",
+        "post_title": "Grundmeier_Jacob047",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "grundmeier_jacob047",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-08-08 14:19:04",
+        "post_modified_gmt": "2018-08-08 19:19:04",
+        "post_content_filtered": "",
+        "post_parent": "2355",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/Grundmeier_Jacob047.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2435"
+    },
+    "phone_number": "515-294-0799",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Systems Analyst II [E CPE]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2355"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2355"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2355"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2355"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2355"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2355"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 1670,
+    "date": "2016-01-26T17:49:39",
+    "slug": "leharker",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/leharker\/",
+    "title": {
+        "rendered": "Harker, Leland"
+    },
+    "author": 3,
+    "netid": "leharker",
+    "email": "leharker@iastate.edu",
+    "firstname": "Leland",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Harker",
+    "user_image": {
+        "ID": "1895",
+        "post_author": "0",
+        "post_date": "2016-01-15 11:50:55",
+        "post_date_gmt": "2016-01-15 17:50:55",
+        "post_content": "",
+        "post_title": "HarkerLeland",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "harkerleland",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-15 11:50:55",
+        "post_modified_gmt": "2016-01-15 17:50:55",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/HarkerLeland.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "1895"
+    },
+    "phone_number": "515-294-3247",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Electronics Technician II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/1670"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=1670"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=1670"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=1670"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=1670"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=1670"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 449,
+    "date": "2016-01-12T16:14:41",
+    "slug": "skharris",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/skharris\/",
+    "title": {
+        "rendered": "Harris, Sara"
+    },
+    "author": 3,
+    "netid": "skharris",
+    "email": "skharris@iastate.edu",
+    "firstname": "Sara",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Harris",
+    "user_image": {
+        "ID": "957",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:52:02",
+        "post_date_gmt": "2016-01-15 04:52:02",
+        "post_content": "",
+        "post_title": "HarrisSara",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "harrissara",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:52:02",
+        "post_modified_gmt": "2016-01-15 04:52:02",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/HarrisSara.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "957"
+    },
+    "phone_number": "515-294-1097",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Administrative Specialist II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "2212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/449"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=449"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=449"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=449"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=449"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=449"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 606,
+    "date": "2016-01-12T16:16:34",
+    "slug": "akimber",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/akimber\/",
+    "title": {
+        "rendered": "Kimber, Anne"
+    },
+    "author": 3,
+    "netid": "akimber",
+    "email": "akimber@iastate.edu",
+    "firstname": "Anne",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Kimber",
+    "user_image": {
+        "ID": "3679",
+        "post_author": "0",
+        "post_date": "2018-09-24 13:49:39",
+        "post_date_gmt": "2018-09-24 18:49:39",
+        "post_content": "",
+        "post_title": "Kimber%20headshot",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "kimber%20headshot",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-09-24 13:49:39",
+        "post_modified_gmt": "2018-09-24 18:49:39",
+        "post_content_filtered": "",
+        "post_parent": "606",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/09\/Kimber20headshot.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "3679"
+    },
+    "phone_number": "515-294-7678",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Program Manager I [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1111 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/606"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=606"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=606"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=606"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=606"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=606"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 467,
+    "date": "2016-01-12T16:14:49",
+    "slug": "awmoore",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/awmoore\/",
+    "title": {
+        "rendered": "Moore, Anthony"
+    },
+    "author": 3,
+    "netid": "awmoore",
+    "email": "awmoore@iastate.edu",
+    "firstname": "Anthony",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Moore",
+    "user_image": {
+        "ID": "960",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:52:03",
+        "post_date_gmt": "2016-01-15 04:52:03",
+        "post_content": "",
+        "post_title": "MooreAnthony",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "mooreanthony",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:52:03",
+        "post_modified_gmt": "2016-01-15 04:52:03",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/MooreAnthony.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "960"
+    },
+    "phone_number": "515-294-3485",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Academic Adviser III [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/467"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=467"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=467"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=467"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=467"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=467"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 424,
+    "date": "2016-01-12T16:14:23",
+    "slug": "sjnystro",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/sjnystro\/",
+    "title": {
+        "rendered": "Nystrom, Steve"
+    },
+    "author": 3,
+    "netid": "sjnystro",
+    "email": "sjnystro@iastate.edu",
+    "firstname": "Steve",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Nystrom",
+    "user_image": {
+        "ID": "961",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:52:04",
+        "post_date_gmt": "2016-01-15 04:52:04",
+        "post_content": "",
+        "post_title": "NystromSteve",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "nystromsteve",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:52:04",
+        "post_modified_gmt": "2016-01-15 04:52:04",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/NystromSteve.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "961"
+    },
+    "phone_number": "515-294-7359",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Systems Analyst II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/424"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=424"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=424"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=424"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=424"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=424"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 542,
+    "date": "2016-01-12T16:15:45",
+    "slug": "mpost7",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/mpost7\/",
+    "title": {
+        "rendered": "Post, Matthew"
+    },
+    "author": 308,
+    "netid": "mpost7",
+    "email": "mpost7@iastate.edu",
+    "firstname": "Matthew",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Post",
+    "user_image": {
+        "ID": "2495",
+        "post_author": "2",
+        "post_date": "2018-08-08 14:58:26",
+        "post_date_gmt": "2018-08-08 19:58:26",
+        "post_content": "",
+        "post_title": "no-photo",
+        "post_excerpt": "Default Photo",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "no-photo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2019-08-21 10:28:20",
+        "post_modified_gmt": "2019-08-21 15:28:20",
+        "post_content_filtered": "",
+        "post_parent": "2338",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/no-photo.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2495"
+    },
+    "phone_number": "515-294-1256",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Engineer III [E CPE]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/542"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/308"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=542"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=542"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=542"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=542"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=542"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 488,
+    "date": "2016-01-12T16:15:06",
+    "slug": "tnprouty",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/tnprouty\/",
+    "title": {
+        "rendered": "Prouty, Tina"
+    },
+    "author": 3,
+    "netid": "tnprouty",
+    "email": "tnprouty@iastate.edu",
+    "firstname": "Tina",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Prouty",
+    "user_image": {
+        "ID": "1106",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:53:20",
+        "post_date_gmt": "2016-01-15 04:53:20",
+        "post_content": "",
+        "post_title": "Prouty,-Tina",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "prouty-tina",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:53:20",
+        "post_modified_gmt": "2016-01-15 04:53:20",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/Prouty-Tina.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "1106"
+    },
+    "phone_number": "515-294-7282",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Academic Adviser II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/488"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=488"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=488"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=488"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=488"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=488"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2357,
+    "date": "2018-07-26T13:46:48",
+    "slug": "staceyr",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/staceyr\/",
+    "title": {
+        "rendered": "Ross, Stacey"
+    },
+    "author": 3,
+    "netid": "staceyr",
+    "email": "staceyr@iastate.edu",
+    "firstname": "Stacey",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Ross",
+    "user_image": {
+        "ID": "2420",
+        "post_author": "0",
+        "post_date": "2018-08-08 14:18:37",
+        "post_date_gmt": "2018-08-08 19:18:37",
+        "post_content": "",
+        "post_title": "Ross_Stacey1",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "ross_stacey1",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-08-08 14:18:37",
+        "post_modified_gmt": "2018-08-08 19:18:37",
+        "post_content_filtered": "",
+        "post_parent": "2357",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/Ross_Stacey1.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2420"
+    },
+    "phone_number": "515-294-9162",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Secretary II [E CPE]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2357"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2357"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2357"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2357"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2357"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2357"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 407,
+    "date": "2016-01-12T16:14:09",
+    "slug": "schlage",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/schlage\/",
+    "title": {
+        "rendered": "Schlagel, Donald"
+    },
+    "author": 3,
+    "netid": "schlage",
+    "email": "schlage@iastate.edu",
+    "firstname": "Donald",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Schlagel",
+    "user_image": {
+        "ID": "758",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:50:16",
+        "post_date_gmt": "2016-01-15 04:50:16",
+        "post_content": "",
+        "post_title": "schlagel",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "schlagel",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:50:16",
+        "post_modified_gmt": "2016-01-15 04:50:16",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/schlagel.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "758"
+    },
+    "phone_number": "515-294-1421",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Systems Analyst II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1331 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "<div><p><strong>Work Experience<br \/><\/strong>1996-present, Systems Support Specialist III, Chemical and Biological Engineering, Iowa State University<br \/>1994-1996, Computer Technician, Agriculture College Administration, Iowa State University<\/p><\/div><h4 id=\"education-header\" class=\"dir-header\">Education<\/h4><div><p>M.S. Forest Biometrics, Virginia Polytechnic Institute and State University, 1994<br \/>B.S. Forestry, Northern Arizona State University, 1992<\/p><\/div>",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/407"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=407"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=407"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=407"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=407"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=407"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 3656,
+    "date": "2018-09-17T11:16:54",
+    "slug": "nmscott",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/nmscott\/",
+    "title": {
+        "rendered": "Scott, Nicole"
+    },
+    "author": 1015,
+    "netid": "nmscott",
+    "email": "nmscott@iastate.edu",
+    "firstname": "Nicole",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Scott",
+    "user_image": {
+        "ID": "3981",
+        "post_author": "1015",
+        "post_date": "2019-03-20 15:06:35",
+        "post_date_gmt": "2019-03-20 20:06:35",
+        "post_content": "",
+        "post_title": "Nicole Scott (Christopher Gannon\/Iowa State University)",
+        "post_excerpt": "Nicole Scott (Christopher Gannon\/Iowa State University)",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "nicole-scott-christopher-gannon-iowa-state-university-2",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2019-03-20 15:06:57",
+        "post_modified_gmt": "2019-03-20 20:06:57",
+        "post_content_filtered": "",
+        "post_parent": "3656",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2019\/03\/Nicole-Scott238b.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "3981"
+    },
+    "phone_number": "515-294-3945",
+    "fax": "",
+    "user_title": "Program Coordinator I\r\nPredictive Plant Phenomics (P3) Program",
+    "isu_title": "Program Coordinator I [E CPE]",
+    "hide_isu_title": "1",
+    "office": "1077 Roy J. Carver Co-Laboratory\r\n1111 WOI Road\r\nAmes, Iowa 50011-1085",
+    "isu_office": "1077 Carver Co-Lab $ 1111 WOI Rd. # Ames, IA 500111085",
+    "hide_isu_office": "1",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/3656"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/1015"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=3656"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=3656"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=3656"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=3656"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=3656"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 2358,
+    "date": "2018-07-26T13:49:09",
+    "slug": "clthomas",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/clthomas\/",
+    "title": {
+        "rendered": "Thomas, Clayton"
+    },
+    "author": 3,
+    "netid": "clthomas",
+    "email": "clthomas@iastate.edu",
+    "firstname": "Clayton",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Thomas",
+    "user_image": {
+        "ID": "2495",
+        "post_author": "2",
+        "post_date": "2018-08-08 14:58:26",
+        "post_date_gmt": "2018-08-08 19:58:26",
+        "post_content": "",
+        "post_title": "no-photo",
+        "post_excerpt": "Default Photo",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "no-photo",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2019-08-21 10:28:20",
+        "post_modified_gmt": "2019-08-21 15:28:20",
+        "post_content_filtered": "",
+        "post_parent": "2338",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/08\/no-photo.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2495"
+    },
+    "phone_number": "",
+    "fax": "",
+    "user_title": "",
+    "isu_title": "Research Associate I [GDCB]",
+    "hide_isu_title": "0",
+    "office": "",
+    "isu_office": "3013 Adv Tch Res Bd $ 2213 Pammel Dr. # Ames, IA 500111101",
+    "hide_isu_office": "0",
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/2358"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=2358"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=2358"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=2358"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=2358"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=2358"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 589,
+    "date": "2016-01-12T16:16:20",
+    "slug": "rpthom",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/rpthom\/",
+    "title": {
+        "rendered": "Thompson, Robert"
+    },
+    "author": 3,
+    "netid": "rpthom",
+    "email": "rpthom@iastate.edu",
+    "firstname": "Robert",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Thompson",
+    "user_image": {
+        "ID": "2059",
+        "post_author": "0",
+        "post_date": "2016-01-15 11:53:05",
+        "post_date_gmt": "2016-01-15 17:53:05",
+        "post_content": "",
+        "post_title": "Thompson_Bob web",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "thompson_bob-web",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-15 11:53:05",
+        "post_modified_gmt": "2016-01-15 17:53:05",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/Thompson_Bob-web.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "2059"
+    },
+    "phone_number": "515-294-3168",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Academic Adviser II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/589"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=589"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=589"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=589"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=589"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=589"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 427,
+    "date": "2016-01-12T16:14:25",
+    "slug": "vlthorl",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/vlthorl\/",
+    "title": {
+        "rendered": "Thorland-Oster, Vicky"
+    },
+    "author": 3,
+    "netid": "vlthorl",
+    "email": "vlthorl@iastate.edu",
+    "firstname": "Vicky",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Thorland-Oster",
+    "user_image": {
+        "ID": "964",
+        "post_author": "0",
+        "post_date": "2016-01-14 22:52:05",
+        "post_date_gmt": "2016-01-15 04:52:05",
+        "post_content": "",
+        "post_title": "ThorlandOsterVicky",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "thorlandostervicky",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2016-01-14 22:52:05",
+        "post_modified_gmt": "2016-01-15 04:52:05",
+        "post_content_filtered": "",
+        "post_parent": "0",
+        "guid": "http:\/\/www.engineering.iastate.edu\/people\/files\/2016\/01\/ThorlandOsterVicky.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "964"
+    },
+    "phone_number": "515-294-8778",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Program Coordinator III [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/427"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=427"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=427"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=427"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=427"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=427"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}, {
+    "id": 1822,
+    "date": "2016-01-15T11:33:04",
+    "slug": "rvostulp",
+    "type": "profile",
+    "link": "https:\/\/www.engineering.iastate.edu\/people\/profile\/rvostulp\/",
+    "title": {
+        "rendered": "Vos-Tulp, Rosalie"
+    },
+    "author": 3,
+    "netid": "rvostulp",
+    "email": "rvostulp@iastate.edu",
+    "firstname": "Rosalie",
+    "nickname": "",
+    "middle_name": "",
+    "lastname": "Vos-Tulp",
+    "user_image": {
+        "ID": "3681",
+        "post_author": "0",
+        "post_date": "2018-09-24 13:49:55",
+        "post_date_gmt": "2018-09-24 18:49:55",
+        "post_content": "",
+        "post_title": "Vos_Tulp_Rosalie003",
+        "post_excerpt": "",
+        "post_status": "inherit",
+        "comment_status": "closed",
+        "ping_status": "closed",
+        "post_password": "",
+        "post_name": "vos_tulp_rosalie003",
+        "to_ping": "",
+        "pinged": "",
+        "post_modified": "2018-09-24 13:49:55",
+        "post_modified_gmt": "2018-09-24 18:49:55",
+        "post_content_filtered": "",
+        "post_parent": "1822",
+        "guid": "https:\/\/www.engineering.iastate.edu\/people\/files\/2018\/09\/Vos_Tulp_Rosalie003.jpg",
+        "menu_order": "0",
+        "post_type": "attachment",
+        "post_mime_type": "image\/jpeg",
+        "comment_count": "0",
+        "pod_item_id": "3681"
+    },
+    "phone_number": "515-294-1380",
+    "fax": "",
+    "user_title": "Electrical and Computer Engineering",
+    "isu_title": "Academic Adviser II [E CPE]",
+    "hide_isu_title": [],
+    "office": "",
+    "isu_office": "1212 Coover $ 2520 Osborn Dr. # Ames, IA 500111046",
+    "hide_isu_office": [],
+    "external_link": "",
+    "info": "",
+    "publications": "",
+    "_links": {
+        "self": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile\/1822"
+        }],
+        "collection": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/profile"
+        }],
+        "about": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/types\/profile"
+        }],
+        "author": [{
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/users\/3"
+        }],
+        "wp:attachment": [{
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/media?parent=1822"
+        }],
+        "wp:term": [{
+            "taxonomy": "affiliation",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/affiliation?post=1822"
+        }, {
+            "taxonomy": "department",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/department?post=1822"
+        }, {
+            "taxonomy": "group",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/group?post=1822"
+        }, {
+            "taxonomy": "interest",
+            "embeddable": true,
+            "href": "https:\/\/www.engineering.iastate.edu\/people\/wp-json\/wp\/v2\/interest?post=1822"
+        }],
+        "curies": [{
+            "name": "wp",
+            "href": "https:\/\/api.w.org\/{rel}",
+            "templated": true
+        }]
+    }
+}]

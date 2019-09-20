@@ -1,0 +1,9 @@
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\x64\Release\DataBaseHandler.dll
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\x64\Release\DataBaseHandler.pdb
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\x64\Release\Newtonsoft.Json.dll
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\x64\Release\Newtonsoft.Json.xml
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\x64\Release\DataBaseHandler.csprojAssemblyReference.cache
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\x64\Release\DataBaseHandler.csproj.CoreCompileInputs.cache
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\x64\Release\DataBaseHandler.csproj.CopyComplete
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\x64\Release\DataBaseHandler.dll
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\x64\Release\DataBaseHandler.pdb

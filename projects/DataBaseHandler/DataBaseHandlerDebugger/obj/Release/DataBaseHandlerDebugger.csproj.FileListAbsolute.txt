@@ -1,0 +1,9 @@
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\bin\Release\DataBaseHandlerDebugger.exe
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\bin\Release\DataBaseHandlerDebugger.pdb
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\bin\Release\Newtonsoft.Json.dll
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\bin\Release\Newtonsoft.Json.xml
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\obj\Release\DataBaseHandlerDebugger.csprojAssemblyReference.cache
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\obj\Release\DataBaseHandlerDebugger.csproj.CoreCompileInputs.cache
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\obj\Release\DataBaseHandlerDebugger.csproj.CopyComplete
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\obj\Release\DataBaseHandlerDebugger.exe
+C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandlerDebugger\obj\Release\DataBaseHandlerDebugger.pdb

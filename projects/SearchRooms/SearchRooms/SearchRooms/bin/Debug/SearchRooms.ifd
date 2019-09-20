@@ -1,0 +1,53 @@
+{
+  "kind": "discovery#restDescription",
+  "discoveryVersion": "v1",
+  "id": "SearchRooms",
+  "name": "SearchRooms",
+  "version": "1.0",
+  "protocol": "dll",
+  "baseUrl": null,
+  "basePath": "SearchRooms",
+  "auth": {},
+  "dependencies": [
+    "SearchRooms.dll"
+  ],
+  "schemas": {
+    "SearchForRoom": {
+      "id": "SearchForRoom",
+      "type": "object",
+      "properties": {
+        "Rooms": {
+          "title": "Rooms",
+          "type": "object",
+          "description": "Rooms"
+        },
+        "RoomPath": {
+          "title": "RoomPath",
+          "type": "string",
+          "description": "RoomPath"
+        }
+      }
+    }
+  },
+  "resources": {
+    "SearchForRoom": {
+      "title": "SearchForRoom",
+      "isInterfaceAsset": true,
+      "methods": {
+        "FindRoomPDF": {
+          "title": "FindRoomPDF",
+          "description": "FindRoomPDF",
+          "response": {
+            "type": "string"
+          },
+          "parameters": {
+            "input": {
+              "type": "string",
+              "required": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

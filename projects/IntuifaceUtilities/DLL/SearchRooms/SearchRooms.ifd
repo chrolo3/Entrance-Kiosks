@@ -1,0 +1,132 @@
+{
+  "kind": "discovery#restDescription",
+  "discoveryVersion": "v1",
+  "id": "SearchRooms",
+  "name": "SearchRooms",
+  "version": "1.0",
+  "protocol": "dll",
+  "baseUrl": null,
+  "basePath": "SearchRooms",
+  "auth": {},
+  "dependencies": [
+    "SearchRooms.dll"
+  ],
+  "schemas": {
+    "Room": {
+      "id": "Room",
+      "type": "object",
+      "properties": {
+        "RoomNumber": {
+          "title": "RoomNumber",
+          "type": "string",
+          "description": "RoomNumber"
+        }
+      }
+    },
+    "SearchForRoom": {
+      "id": "SearchForRoom",
+      "type": "object",
+      "properties": {
+        "Rooms": {
+          "title": "Rooms",
+          "type": "object",
+          "description": "Rooms"
+        },
+        "RoomPath": {
+          "title": "RoomPath",
+          "type": "string",
+          "description": "RoomPath"
+        },
+        "AllRooms": {
+          "title": "AllRooms",
+          "type": "array",
+          "description": "AllRooms",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "ConferenceRooms": {
+          "title": "ConferenceRooms",
+          "type": "array",
+          "description": "ConferenceRooms",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "StudentServices": {
+          "title": "StudentServices",
+          "type": "array",
+          "description": "StudentServices",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "AcedemicOffices": {
+          "title": "AcedemicOffices",
+          "type": "array",
+          "description": "AcedemicOffices",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "GraduateOffices": {
+          "title": "GraduateOffices",
+          "type": "array",
+          "description": "GraduateOffices",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "MainOffice": {
+          "title": "MainOffice",
+          "type": "array",
+          "description": "MainOffice",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "AdministrativeOffices": {
+          "title": "AdministrativeOffices",
+          "type": "array",
+          "description": "AdministrativeOffices",
+          "items": {
+            "$ref": "Room"
+          }
+        },
+        "Labs": {
+          "title": "Labs",
+          "type": "array",
+          "description": "Labs",
+          "items": {
+            "$ref": "Room"
+          }
+        }
+      }
+    }
+  },
+  "resources": {
+    "Room": {
+      "title": "Room",
+      "isInterfaceAsset": true
+    },
+    "SearchForRoom": {
+      "title": "SearchForRoom",
+      "isInterfaceAsset": true,
+      "methods": {
+        "FindRoomPDF": {
+          "title": "FindRoomPDF",
+          "description": "FindRoomPDF",
+          "response": {
+            "type": "null"
+          },
+          "parameters": {
+            "input": {
+              "type": "string",
+              "required": true
+            }
+          }
+        }
+      }
+    }
+  }
+}
