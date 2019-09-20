@@ -1,0 +1,1 @@
+C:\IntuifaceUtilities\GenerateDescriptor\Release\GenerateDescriptor.exe "C:\IntuifaceUtilities\DLL\SearchRooms\SearchRooms.dll"
