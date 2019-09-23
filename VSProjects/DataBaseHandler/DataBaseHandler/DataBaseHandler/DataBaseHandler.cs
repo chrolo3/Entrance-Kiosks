@@ -129,6 +129,7 @@ namespace DataBaseHandler
         //Easy command to use to generate all relevant data for intuiface, Can be used similar to main()
         public void UpdateAll()
         {
+            //If the network is online then fetch the data from online.
             if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateJsonObjects();
@@ -136,12 +137,14 @@ namespace DataBaseHandler
             }
             else
             {
+                //Load the backup files     No pictures will load if the database is offline.
                 LoadFromGeneratedFiles();
             }
 
             GenerateAdvisors();
             GenerateMainOffices();
 
+            //If the network is online then create a backup on local disk of database.
             if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateObjectsJson();
@@ -159,17 +162,17 @@ namespace DataBaseHandler
             foreach (StaffFaculty sf in people)
             {
                 // Search titles
-                if (sf.title.rendered.Contains(ss, StringComparison.OrdinalIgnoreCase))
+                if (sf.title.rendered.Contains(ss, StringComparison.OrdinalIgnoreCase) && !SearchedList.Contains(sf))
                 {
                     SearchedList.Add(sf);
                 }
                 // Search netids
-                else if (sf.netid.Contains(ss, StringComparison.OrdinalIgnoreCase))
+                if (sf.netid.Contains(ss, StringComparison.OrdinalIgnoreCase) && !SearchedList.Contains(sf))
                 {
                     SearchedList.Add(sf);
                 }
                 // Search offices
-                else if (sf.office.Contains(ss, StringComparison.OrdinalIgnoreCase))
+                if (sf.office.Contains(ss, StringComparison.OrdinalIgnoreCase) && !SearchedList.Contains(sf))
                 {
                     SearchedList.Add(sf);
                 }
@@ -288,12 +291,12 @@ namespace DataBaseHandler
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, People);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Advisors.json"))
+            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Advisors.json")) //Currently unused by any other code
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, Advisors);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\MainOffice.json"))
+            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\MainOffice.json")) //Currently unused by any other code
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, MainOffice);
@@ -709,8 +712,18 @@ namespace DataBaseHandler
     #endregion
 }
 
+/// <summary>
+/// Add a function to StringExtenstions that give more flexibility when searching for strings in strings.
+/// </summary>
 public static class StringExtensions
 {
+    /// <summary>
+    /// Checks to see if a string contains a certain substring using a string comparison.
+    /// </summary>
+    /// <param name="str"></param>
+    /// <param name="substring"></param>
+    /// <param name="comp"></param>
+    /// <returns></returns>
     public static bool Contains(this String str, String substring,
                                 StringComparison comp)
     {

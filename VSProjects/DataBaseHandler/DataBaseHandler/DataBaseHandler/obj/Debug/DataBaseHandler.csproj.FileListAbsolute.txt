@@ -7,3 +7,12 @@ C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseH
 C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\Debug\Newtonsoft.Json.xml
 C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.csproj.CopyComplete
 C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.csprojAssemblyReference.cache
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\Debug\DataBaseHandler.dll
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\Debug\DataBaseHandler.pdb
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\Debug\Newtonsoft.Json.dll
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\bin\Debug\Newtonsoft.Json.xml
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.csprojAssemblyReference.cache
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.csproj.CoreCompileInputs.cache
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.csproj.CopyComplete
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.dll
+C:\entrance-kiosks\VSProjects\DataBaseHandler\DataBaseHandler\DataBaseHandler\obj\Debug\DataBaseHandler.pdb

@@ -25,8 +25,12 @@ namespace DataBaseHandlerDebugger
         }
     }
 
+    /// <summary>
+    /// Class for controlling All the database functions and holds the variables for use in the ECPE directory.
+    /// </summary>
     public class DataBaseHandler
     {
+
         private List<StaffFaculty> people = new List<StaffFaculty>();
         private List<Faculty> Pfaculty = new List<Faculty>();
         private List<Staff> Pstaff = new List<Staff>();
@@ -37,36 +41,57 @@ namespace DataBaseHandlerDebugger
         private List<StaffFaculty> searchedList = new List<StaffFaculty>();
         private List<string> mainOfficeNetIds = new List<string>();
 
+        /// <summary>
+        /// List of all People in the directory
+        /// </summary>
         public List<StaffFaculty> People
         {
             get { return people; }
             set { people = value; }
         }
+        /// <summary>
+        /// List of all advisors in the directory
+        /// </summary>
         public List<StaffFaculty> Advisors
         {
             get { return advisors; }
             set { advisors = value; }
         }
+        /// <summary>
+        /// List of all people in the Main office
+        /// </summary>
         public List<StaffFaculty> MainOffice
         {
             get { return mainOffice; }
             set { mainOffice = value; }
         }
+        /// <summary>
+        /// List of all Faculty
+        /// </summary>
         public List<StaffFaculty> Faculty
         {
             get { return faculty; }
             set { faculty = value; }
         }
+        /// <summary>
+        /// List of all Staff
+        /// </summary>
         public List<StaffFaculty> Staff
         {
             get { return staff; }
             set { staff = value; }
         }
+        /// <summary>
+        /// List that gets regenerated every time a search has been performed
+        /// </summary>
         public List<StaffFaculty> SearchedList
         {
             get { return searchedList; }
             set { searchedList = value; }
         }
+        /// <summary>
+        /// List of the Main Office Net Ids for use in determining who belongs in the Main Office list
+        /// </summary>
         public List<string> MainOfficeNetIds
         {
             get { return mainOfficeNetIds; }
@@ -74,32 +99,44 @@ namespace DataBaseHandlerDebugger
         }
 
 
+        /// <summary>
+        /// Creates new DataBaseHandler from either the online database. (If internet is not available, it will recall its stored info on disk)
+        /// </summary>
         public DataBaseHandler()
         {
+            //Check to see if network connection is available
             if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
+                //Read JsonFile and Organize data
                 CreateJsonObjects();
                 CombineStaffandFaculty(Pstaff, Pfaculty);
             }
             else
             {
+                //Load from on disk backup
                 LoadFromGeneratedFiles();
             }
 
+            //Add people to the Main Office list
             MainOfficeNetIds.Add("kclague");
             MainOfficeNetIds.Add("skharris");
 
+            //Fills the list for all advisors
             GenerateAdvisors();
+            //Fills the list of Main office people.
             GenerateMainOffices();
 
+            //If network is available, save a backup to local disk of data.
             if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateObjectsJson();
             }
         }
 
+        //Easy command to use to generate all relevant data for intuiface, Can be used similar to main()
         public void UpdateAll()
         {
+            //If the network is online then fetch the data from online.
             if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateJsonObjects();
@@ -107,38 +144,52 @@ namespace DataBaseHandlerDebugger
             }
             else
             {
+                //Load the backup files     No pictures will load if the database is offline.
                 LoadFromGeneratedFiles();
             }
 
             GenerateAdvisors();
             GenerateMainOffices();
 
+            //If the network is online then create a backup on local disk of database.
             if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateObjectsJson();
             }
         }
 
+        /// <summary>
+        /// Searches each person's "title, netid, and office" for a String. 
+        /// </summary>
+        /// <param name="ss">Search String</param>
         public void SearchAllInPeople(string ss)
         {
+            //Reset previous search results
             SearchedList = new List<StaffFaculty>();
             foreach (StaffFaculty sf in people)
             {
-                if (sf.title.rendered.Contains(ss, StringComparison.OrdinalIgnoreCase))
+                // Search titles
+                if (sf.title.rendered.Contains(ss, StringComparison.OrdinalIgnoreCase) && !SearchedList.Contains(sf))
                 {
                     SearchedList.Add(sf);
                 }
-                else if (sf.netid.Contains(ss, StringComparison.OrdinalIgnoreCase))
+                // Search netids
+                if (sf.netid.Contains(ss, StringComparison.OrdinalIgnoreCase) && !SearchedList.Contains(sf))
                 {
                     SearchedList.Add(sf);
                 }
-                else if (sf.office.Contains(ss, StringComparison.OrdinalIgnoreCase))
+                // Search offices
+                if (sf.office.Contains(ss, StringComparison.OrdinalIgnoreCase) && !SearchedList.Contains(sf))
                 {
                     SearchedList.Add(sf);
                 }
             }
         }
 
+        /// <summary>
+        /// Searches each person's name for a String.
+        /// </summary>
+        /// <param name="ss">Search String</param>
         public void SearchByNameInPeople(string ss)
         {
             SearchedList = new List<StaffFaculty>();
@@ -151,6 +202,10 @@ namespace DataBaseHandlerDebugger
             }
         }
 
+        /// <summary>
+        /// Searches each person's netid for a String.
+        /// </summary>
+        /// <param name="ss">Search String</param>
         public void SearchByNetIdInPeople(string ss)
         {
             SearchedList = new List<StaffFaculty>();
@@ -163,6 +218,10 @@ namespace DataBaseHandlerDebugger
             }
         }
 
+        /// <summary>
+        /// Searches each person's office for a String.
+        /// </summary>
+        /// <param name="ss">Search String</param>
         public void SearchByRoomInPeople(string ss)
         {
             SearchedList = new List<StaffFaculty>();
@@ -175,20 +234,26 @@ namespace DataBaseHandlerDebugger
             }
         }
 
-        //Convert json files to objects
+        /// <summary>
+        /// Read Json files from the database and convert them to objects.
+        /// </summary>
         public void CreateJsonObjects()
         {
+            //Open file on web.
             WebClient client = new WebClient();
             Stream stream = client.OpenRead("https://www.engineering.iastate.edu/people/wp-json/wp/v2/profile?page=1&per_page=100&orderby=title&order=asc&context=view&department=1121%2C1122%2C1123%2C1124%2C1125");
 
+            //Convert faculty json to object
             using (StreamReader r = new StreamReader(stream))
             {
                 string json = r.ReadToEnd();
                 Pfaculty = JsonConvert.DeserializeObject<List<Faculty>>(json);
             }
 
+            //open file on web
             stream = client.OpenRead("https://www.engineering.iastate.edu/people/wp-json/wp/v2/profile?page=1&per_page=100&orderby=title&order=asc&context=embed&department=1126");
 
+            //Convert staff  json to object
             using (StreamReader r = new StreamReader(stream))
             {
                 string json = r.ReadToEnd();
@@ -196,8 +261,12 @@ namespace DataBaseHandlerDebugger
             }
         }
 
+        /// <summary>
+        /// Loads presaved json files into usable objects.
+        /// </summary>
         private void LoadFromGeneratedFiles()
         {
+            //Load each file and create variables
             using (StreamReader r = File.OpenText(@"C:\IntuifaceCommon\People.json"))
             {
                 People = new List<StaffFaculty>();
@@ -218,20 +287,23 @@ namespace DataBaseHandlerDebugger
             }
         }
 
-        //Create all json files for easy use in intuiface
+        /// <summary>
+        /// Create backup files on local disk.
+        /// </summary>
         public void CreateObjectsJson()
         {
+            //Write file to disk
             using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\People.json"))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, People);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Advisors.json"))
+            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Advisors.json")) //Currently unused by any other code
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, Advisors);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\MainOffice.json"))
+            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\MainOffice.json")) //Currently unused by any other code
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, MainOffice);
@@ -248,8 +320,14 @@ namespace DataBaseHandlerDebugger
             }
         }
 
+        /// <summary>
+        /// Merges seperate classes Staff, Faculty into the master class, StaffFaculty
+        /// </summary>
+        /// <param name="staff"></param>
+        /// <param name="faculty"></param>
         public void CombineStaffandFaculty(List<Staff> staff, List<Faculty> faculty)
         {
+            //Convert all staff into StaffFaculty
             foreach (Staff s in staff)
             {
                 StaffFaculty sf = new StaffFaculty();
@@ -257,6 +335,7 @@ namespace DataBaseHandlerDebugger
                 people.Add(sf);
                 Staff.Add(sf);
             }
+            //Convert all faculty into StaffFaculty
             foreach (Faculty f in faculty)
             {
                 StaffFaculty sf = new StaffFaculty();
@@ -266,8 +345,12 @@ namespace DataBaseHandlerDebugger
             }
         }
 
+        /// <summary>
+        /// Creates list of advisors.
+        /// </summary>
         public void GenerateAdvisors()
         {
+            advisors = new List<StaffFaculty>();
             foreach (StaffFaculty sf in people)
             {
                 if (sf.isu_title.Length > 16)
@@ -280,6 +363,7 @@ namespace DataBaseHandlerDebugger
             }
         }
 
+        //Create main office list based on netid.
         public void GenerateMainOffices()
         {
             foreach (StaffFaculty sf in people)
@@ -295,7 +379,8 @@ namespace DataBaseHandlerDebugger
         }
     }
 
-    #region Classes...
+    //Pregenerated classes for use with the json handler
+    #region json classes
     public class Guid
     {
         public string rendered { get; set; }
@@ -384,7 +469,12 @@ namespace DataBaseHandlerDebugger
         public List<WpTerm> __invalid_name__wpTerm { get; set; }
         public List<Cury> curies { get; set; }
     }
-
+    #endregion
+    //Classes for all the staff and faculty and StaffFaculty
+    #region Staff Faculty Classes
+    /// <summary>
+    /// Primitive json format for faculty
+    /// </summary>
     public class Faculty
     {
         public int id { get; set; }
@@ -424,7 +514,9 @@ namespace DataBaseHandlerDebugger
         public string publications { get; set; }
         public Links links { get; set; }
     }
-
+    /// <summary>
+    /// Primitive json format for staff
+    /// </summary>
     public class Staff
     {
         public int id { get; set; }
@@ -454,7 +546,9 @@ namespace DataBaseHandlerDebugger
         public string publications { get; set; }
         public Links _links { get; set; }
     }
-
+    /// <summary>
+    /// Master class that defines each person.
+    /// </summary>
     public class StaffFaculty
     {
         public string employeeType { get; set; }
@@ -627,6 +721,13 @@ namespace DataBaseHandlerDebugger
 
 public static class StringExtensions
 {
+    /// <summary>
+    /// Checks to see if a string contains a certain substring using a string comparison.
+    /// </summary>
+    /// <param name="str"></param>
+    /// <param name="substring"></param>
+    /// <param name="comp"></param>
+    /// <returns></returns>
     public static bool Contains(this String str, String substring,
                                 StringComparison comp)
     {

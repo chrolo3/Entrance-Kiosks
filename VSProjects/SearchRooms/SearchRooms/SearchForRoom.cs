@@ -2,6 +2,9 @@
 
 namespace SearchRooms
 {
+    /// <summary>
+    /// Describes what a room is in our scope.
+    /// </summary>
     public class Room
     {
         public string RoomNumber { get; set; }
@@ -11,6 +14,11 @@ namespace SearchRooms
             RoomNumber = rn;
         }
 
+        /// <summary>
+        /// Function that creates a list of rooms based on a string array.
+        /// </summary>
+        /// <param name="sra">String array to convert.</param>
+        /// <returns>returns a list of rooms</returns>
         public static List<Room> SetRooms(string [] sra)
         {
             List<Room> output = new List<Room>();
@@ -22,9 +30,15 @@ namespace SearchRooms
         }
     }
 
+    /// <summary>
+    /// This class allows the user to input a room number and search for it from a list of all the room numbers at coover hall.
+    /// </summary>
     public class SearchForRoom
     {
         private string[] rooms;
+        /// <summary>
+        /// List of all rooms to search from
+        /// </summary>
         public string [] Rooms
         {
             get
@@ -38,6 +52,9 @@ namespace SearchRooms
         }
 
         private string roomPath;
+        /// <summary>
+        /// Output path in the C directory to the room documents.
+        /// </summary>
         public string RoomPath
         {
             get
@@ -51,6 +68,9 @@ namespace SearchRooms
         }
 
         private List<Room> allRooms;
+        /// <summary>
+        /// List of all rooms that can be searched for.
+        /// </summary>
         public List<Room> AllRooms
         {
             get
@@ -64,6 +84,9 @@ namespace SearchRooms
         }
 
         private List<Room> conferenceRooms;
+        /// <summary>
+        /// List of all conference rooms.
+        /// </summary>
         public List<Room> ConferenceRooms
         {
             get
@@ -77,6 +100,9 @@ namespace SearchRooms
         }
 
         private List<Room> studentServices;
+        /// <summary>
+        /// List of student services rooms.
+        /// </summary>
         public List<Room> StudentServices
         {
             get
@@ -90,6 +116,9 @@ namespace SearchRooms
         }
 
         private List<Room> acedemicOffices;
+        /// <summary>
+        /// List of acedemic offices.
+        /// </summary>
         public List<Room> AcedemicOffices
         {
             get
@@ -103,6 +132,9 @@ namespace SearchRooms
         }
 
         private List<Room> graduateOffices;
+        /// <summary>
+        /// List of graduate offices
+        /// </summary>
         public List<Room> GraduateOffices
         {
             get
@@ -116,6 +148,9 @@ namespace SearchRooms
         }
 
         private List<Room> mainOffice;
+        /// <summary>
+        /// List of all rooms related to main office.
+        /// </summary>
         public List<Room> MainOffice
         {
             get
@@ -129,6 +164,9 @@ namespace SearchRooms
         }
 
         private List<Room> administrativeOffices;
+        /// <summary>
+        /// List of all administrative offices.
+        /// </summary>
         public List<Room> AdministrativeOffices
         {
             get
@@ -142,6 +180,9 @@ namespace SearchRooms
         }
 
         private List<Room> labs;
+        /// <summary>
+        /// List of all labs.
+        /// </summary>
         public List<Room> Labs
         {
             get
@@ -251,22 +292,33 @@ namespace SearchRooms
                 "2046", "2048", "2050", "2061"
                 });
         }
-
+        
+        /// <summary>
+        /// Searches for a room and changes the roompath variable
+        /// </summary>
+        /// <param name="input">The room number to input.</param>
         public void FindRoomPDF(string input)
         {
             string finalString = "";
 
             if (RoomsContains(input))
             {
+                // This is the path to the intuiface player installation of the project. Change only if you must.
                 finalString = "C:\\Users\\Public\\Intuiface\\1-6d0c4909-3644\\Files\\Documents\\" +  input + ".pdf";
                 RoomPath = finalString;
             }
             else
             {
+                //No room path was found.
                 RoomPath = "room. Please try again";
             }
         }
 
+        /// <summary>
+        /// Does the Rooms list contain a certain Room
+        /// </summary>
+        /// <param name="x">Room number as string to find.</param>
+        /// <returns>Returns whether the room exists or not.</returns>
         private bool RoomsContains(string x)
         {
             for (int i = 0; i < rooms.Length; i++)
