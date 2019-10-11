@@ -195,7 +195,9 @@ namespace SearchRooms
             }
         }
 
-
+        /// <summary>
+        /// Manipulate these variables if rooms need changed.
+        /// </summary>
         public SearchForRoom()
         {
             RoomPath = "room. Please try again";
@@ -304,7 +306,7 @@ namespace SearchRooms
             if (RoomsContains(input))
             {
                 // This is the path to the intuiface player installation of the project. Change only if you must.
-                finalString = "C:\\Users\\Public\\Intuiface\\1-6d0c4909-3644\\Files\\Documents\\" +  input + ".pdf";
+                finalString = "C:\\IntuifaceUtilities\\BuildingMapPDFs\\" +  input + ".pdf";
                 RoomPath = finalString;
             }
             else

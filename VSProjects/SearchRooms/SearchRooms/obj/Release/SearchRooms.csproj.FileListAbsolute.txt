@@ -1,0 +1,6 @@
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\bin\Release\SearchRooms.dll
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\bin\Release\SearchRooms.pdb
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Release\SearchRooms.csprojAssemblyReference.cache
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Release\SearchRooms.csproj.CoreCompileInputs.cache
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Release\SearchRooms.dll
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Release\SearchRooms.pdb

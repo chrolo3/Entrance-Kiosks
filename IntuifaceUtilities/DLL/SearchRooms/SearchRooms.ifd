@@ -37,6 +37,11 @@
           "type": "string",
           "description": "RoomPath"
         },
+        "RoomDocument": {
+          "title": "RoomDocument",
+          "type": "string",
+          "description": "RoomDocument"
+        },
         "AllRooms": {
           "title": "AllRooms",
           "type": "array",

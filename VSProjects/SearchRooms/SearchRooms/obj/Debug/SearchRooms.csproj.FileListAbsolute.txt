@@ -12,7 +12,7 @@ C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\SearchRoo
 C:\Users\ecpechbo\Documents\IntuiFace\Interface Assets\Entrance-Kiosks\SearchRooms\SearchRooms\SearchRooms\obj\Debug\SearchRooms.pdb
 C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\bin\Debug\SearchRooms.dll
 C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\bin\Debug\SearchRooms.pdb
-C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Debug\SearchRooms.csprojAssemblyReference.cache
 C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Debug\SearchRooms.csproj.CoreCompileInputs.cache
 C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Debug\SearchRooms.dll
 C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Debug\SearchRooms.pdb
+C:\entrance-kiosks\VSProjects\SearchRooms\SearchRooms\obj\Debug\SearchRooms.csprojAssemblyReference.cache

@@ -623,6 +623,11 @@ namespace DataBaseHandler
             links = new Links();
         }
 
+        /// <summary>
+        /// Convert Staff to StaffFaculty
+        /// </summary>
+        /// <param name="sf"></param>
+        /// <param name="staff"></param>
         public static void staffConvert(out StaffFaculty sf, Staff staff)
         {
             sf = new StaffFaculty();
