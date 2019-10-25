@@ -1,0 +1,6 @@
+C:\entrance-kiosks\VSProjects\SearchRooms\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\entrance-kiosks\VSProjects\SearchRooms\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\entrance-kiosks\VSProjects\SearchRooms\Test\bin\Debug\Test.exe
+C:\entrance-kiosks\VSProjects\SearchRooms\Test\bin\Debug\Test.pdb
+C:\entrance-kiosks\VSProjects\SearchRooms\Test\obj\Debug\Test.exe
+C:\entrance-kiosks\VSProjects\SearchRooms\Test\obj\Debug\Test.pdb

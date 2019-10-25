@@ -33,6 +33,7 @@ namespace DataBaseHandler
         private List<StaffFaculty> staff = new List<StaffFaculty>();
         private List<StaffFaculty> searchedList = new List<StaffFaculty>();
         private List<string> mainOfficeNetIds = new List<string>();
+        private List<string> advisorsNetIds = new List<string>();
 
         /// <summary>
         /// List of all People in the directory
@@ -74,6 +75,7 @@ namespace DataBaseHandler
             get { return staff; }
             set { staff = value; }
         }
+
         /// <summary>
         /// List that gets regenerated every time a search has been performed
         /// </summary>
@@ -91,6 +93,14 @@ namespace DataBaseHandler
             set { MainOfficeNetIds = value; }
         }
 
+        /// <summary>
+        /// List of the Advisors Net Ids for use in determining who belongs in the advisors list
+        /// </summary>
+        public List<string> AdvisorsNetIds
+        {
+            get { return advisorsNetIds; }
+            set { advisorsNetIds = value; }
+        }
 
         /// <summary>
         /// Creates new DataBaseHandler from either the online database. (If internet is not available, it will recall its stored info on disk)
@@ -106,24 +116,25 @@ namespace DataBaseHandler
             }
             else
             {
-                //Load from on disk backup
-                LoadFromGeneratedFiles();
+                //Depreceated: Load from on disk backup
+                //LoadFromGeneratedFiles();
+
+                People.Add(new StaffFaculty());
+                People[0].title.rendered = "No network connection Found";
             }
 
-            //Add people to the Main Office list
-            MainOfficeNetIds.Add("kclague");
-            MainOfficeNetIds.Add("skharris");
+            AddNetIdsToLists();
 
-            //Fills the list for all advisors
             GenerateAdvisors();
-            //Fills the list of Main office people.
+            SortStaffFacultyByName(ref advisors);
             GenerateMainOffices();
+            SortStaffFacultyByName(ref mainOffice);
 
-            //If network is available, save a backup to local disk of data.
-            if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
+            //Deprecated: If network is available, save a backup to local disk of data.
+            /*if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateObjectsJson();
-            }
+            }*/
         }
 
         //Easy command to use to generate all relevant data for intuiface, Can be used similar to main()
@@ -137,18 +148,38 @@ namespace DataBaseHandler
             }
             else
             {
-                //Load the backup files     No pictures will load if the database is offline.
-                LoadFromGeneratedFiles();
+                //Deprecated: Load the backup files     No pictures will load if the database is offline.
+                //LoadFromGeneratedFiles();
+
+                People.Add(new StaffFaculty());
+                People[0].title.rendered = "No network connection Found";
             }
 
             GenerateAdvisors();
+            SortStaffFacultyByName(ref advisors);
             GenerateMainOffices();
+            SortStaffFacultyByName(ref mainOffice);
 
-            //If the network is online then create a backup on local disk of database.
-            if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
+            //Deprecated: If the network is online then create a backup on local disk of database.
+            /*if (System.Net.NetworkInformation.NetworkInterface.GetIsNetworkAvailable())
             {
                 CreateObjectsJson();
-            }
+            }*/
+        }
+
+        private void AddNetIdsToLists()
+        {
+            //Add people to the Main Office list
+            MainOfficeNetIds.Add("kclague");
+            MainOfficeNetIds.Add("skharris");
+
+            //Add people to the advisors list
+            AdvisorsNetIds.Add("ikeilers");
+            AdvisorsNetIds.Add("awmoore");
+            AdvisorsNetIds.Add("tnprouty");
+            AdvisorsNetIds.Add("rpthom");
+            AdvisorsNetIds.Add("vlthorl");
+            AdvisorsNetIds.Add("rvostulp");
         }
 
         /// <summary>
@@ -255,24 +286,24 @@ namespace DataBaseHandler
         }
 
         /// <summary>
-        /// Loads presaved json files into usable objects.
+        /// Depcrecated: Loads presaved json files into usable objects.
         /// </summary>
         private void LoadFromGeneratedFiles()
         {
             //Load each file and create variables
-            using (StreamReader r = File.OpenText(@"C:\IntuifaceCommon\People.json"))
+            using (StreamReader r = File.OpenText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\People.json"))
             {
                 People = new List<StaffFaculty>();
                 string json = r.ReadToEnd();
                 People = JsonConvert.DeserializeObject<List<StaffFaculty>>(json);
             }
-            using (StreamReader r = File.OpenText(@"C:\IntuifaceCommon\Staff.json"))
+            using (StreamReader r = File.OpenText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\Staff.json"))
             {
                 Staff = new List<StaffFaculty>();
                 string json = r.ReadToEnd();
                 Staff = JsonConvert.DeserializeObject<List<StaffFaculty>>(json);
             }
-            using (StreamReader r = File.OpenText(@"C:\IntuifaceCommon\Faculty.json"))
+            using (StreamReader r = File.OpenText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\Faculty.json"))
             {
                 Faculty = new List<StaffFaculty>();
                 string json = r.ReadToEnd();
@@ -281,32 +312,32 @@ namespace DataBaseHandler
         }
 
         /// <summary>
-        /// Create backup files on local disk.
+        /// Deprecated: Create backup files on local disk.
         /// </summary>
         public void CreateObjectsJson()
         {
             //Write file to disk
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\People.json"))
+            using (StreamWriter file = File.CreateText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\People.json"))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, People);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Advisors.json")) //Currently unused by any other code
+            using (StreamWriter file = File.CreateText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\Advisors.json")) //Currently unused by any other code
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, Advisors);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\MainOffice.json")) //Currently unused by any other code
+            using (StreamWriter file = File.CreateText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\MainOffice.json")) //Currently unused by any other code
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, MainOffice);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Faculty.json"))
+            using (StreamWriter file = File.CreateText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\Faculty.json"))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, Faculty);
             }
-            using (StreamWriter file = File.CreateText(@"C:\IntuifaceCommon\Staff.json"))
+            using (StreamWriter file = File.CreateText(@"C:\Wall Software\Intuilabs Projects\Coover_Project\Backup\Staff.json"))
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, Staff);
@@ -320,6 +351,10 @@ namespace DataBaseHandler
         /// <param name="faculty"></param>
         public void CombineStaffandFaculty(List<Staff> staff, List<Faculty> faculty)
         {
+            people = new List<StaffFaculty>();
+            Staff = new List<StaffFaculty>();
+            Faculty = new List<StaffFaculty>();
+
             //Convert all staff into StaffFaculty
             foreach (Staff s in staff)
             {
@@ -328,6 +363,7 @@ namespace DataBaseHandler
                 people.Add(sf);
                 Staff.Add(sf);
             }
+
             //Convert all faculty into StaffFaculty
             foreach (Faculty f in faculty)
             {
@@ -336,6 +372,13 @@ namespace DataBaseHandler
                 people.Add(sf);
                 Faculty.Add(sf);
             }
+
+            SortStaffFacultyByName(ref people);
+        }
+
+        public void SortStaffFacultyByName(ref List<StaffFaculty> sf)
+        {
+            sf.Sort((x, y) => string.Compare(x.lastname, y.lastname));
         }
 
         /// <summary>
@@ -343,12 +386,12 @@ namespace DataBaseHandler
         /// </summary>
         public void GenerateAdvisors()
         {
-            advisors = new List<StaffFaculty>();
+            Advisors = new List<StaffFaculty>();
             foreach (StaffFaculty sf in people)
             {
-                if (sf.isu_title.Length > 16)
+                foreach (string id in AdvisorsNetIds)
                 {
-                    if (String.Compare(sf.isu_title.Remove(16), "Academic Adviser") == 0)
+                    if (sf.netid == id)
                     {
                         Advisors.Add(sf);
                     }
@@ -359,6 +402,7 @@ namespace DataBaseHandler
         //Create main office list based on netid.
         public void GenerateMainOffices()
         {
+            mainOffice = new List<StaffFaculty>();
             foreach (StaffFaculty sf in people)
             {
                 foreach (string id in MainOfficeNetIds)

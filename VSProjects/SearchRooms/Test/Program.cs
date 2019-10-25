@@ -1,8 +1,21 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net.NetworkInformation;
+using System.Text;
 
-namespace SearchRooms
+namespace Test
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            SearchForRoom sr = new SearchForRoom();
+            sr.FindRoomPDF("2215");
+        }
+    }
+
     /// <summary>
     /// Describes what a room is in our scope.
     /// </summary>
@@ -20,7 +33,7 @@ namespace SearchRooms
         /// </summary>
         /// <param name="sra">String array to convert.</param>
         /// <returns>returns a list of rooms</returns>
-        public static List<Room> SetRooms(string [] sra)
+        public static List<Room> SetRooms(string[] sra)
         {
             List<Room> output = new List<Room>();
             for (int x = 0; x < sra.Length; x++)
@@ -40,7 +53,7 @@ namespace SearchRooms
         /// <summary>
         /// List of all rooms to search from
         /// </summary>
-        public string [] Rooms
+        public string[] Rooms
         {
             get
             {
@@ -211,7 +224,7 @@ namespace SearchRooms
                 "1207", "1212", "1213", "1219", "1301",
                 "1313", "1316", "1318", "1331", "2011",
                 "2014", "2018", "2041", "2042", "2046",
-                "2048", "2050", "2061", "2105", "2108", "2113",
+                "2048", "2050", "2061", "2105", "2113",
                 "2115", "2117", "2121", "2124", "2126",
                 "2128", "2129", "2130", "2132", "2133",
                 "2134", "2135", "2201", "2202", "2205",
@@ -219,7 +232,7 @@ namespace SearchRooms
                 "2215", "2216", "2218", "2222", "2245",
                 "3011", "3013", "3014", "3018", "3038",
                 "3041", "3042", "3043", "3046", "3050",
-                "3101", "3102", "3107", "3108",
+                "3065", "3101", "3102", "3107", "3108",
                 "3112", "3113", "3119", "3121", "3123",
                 "3125", "3126", "3128", "3131", "3132",
                 "3133", "3134", "3138", "3201", "3202",
@@ -237,7 +250,7 @@ namespace SearchRooms
                 "1207", "1212", "1213", "1219", "1301",
                 "1313", "1316", "1318", "1331", "2011",
                 "2014", "2018", "2041", "2042", "2046",
-                "2048", "2050", "2061", "2105", "2108", "2113",
+                "2048", "2050", "2061", "2105", "2113",
                 "2115", "2117", "2121", "2124", "2126",
                 "2128", "2129", "2130", "2132", "2133",
                 "2134", "2135", "2201", "2202", "2205",
@@ -245,7 +258,7 @@ namespace SearchRooms
                 "2215", "2216", "2218", "2222", "2245",
                 "3011", "3013", "3014", "3018", "3038",
                 "3041", "3042", "3043", "3046", "3050",
-                "3101", "3102", "3107", "3108",
+                "3065", "3101", "3102", "3107", "3108",
                 "3112", "3113", "3119", "3121", "3123",
                 "3125", "3126", "3128", "3131", "3132",
                 "3133", "3134", "3138", "3201", "3202",
@@ -295,7 +308,7 @@ namespace SearchRooms
                 "2046", "2048", "2050", "2061"
                 });
         }
-        
+
         /// <summary>
         /// Searches for a room and changes the roompath variable
         /// </summary>
@@ -307,15 +320,16 @@ namespace SearchRooms
             if (RoomsContains(input))
             {
                 // This is the path to the intuiface player installation of the project. Change only if you must.
-                finalString = "C:\\Wall Software\\Intuilabs Projects\\Coover_Project\\Files\\AllFloorImages\\" +  input;
+                finalString = "C:\\Wall Software\\Intuilabs Projects\\Coover_Project\\Files\\Documents\\" + input;
                 RoomPath = finalString;
 
                 if (GetDefaultMacAddress() == "54B203084431")
                 {
-                    RoomPath = RoomPath + "w" + ".png";
-                } else
+                    RoomPath = RoomPath + "w" + ".pdf";
+                }
+                else
                 {
-                    RoomPath = RoomPath + "e" + ".png";
+                    RoomPath = RoomPath + "e" + ".pdf";
                 }
             }
             else
